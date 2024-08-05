@@ -1,0 +1,1391 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Assistant", sans-serif; */
+    /* font-family: "Edu AU VIC WA NT Hand", cursive; */
+    font-family: "Assistant", sans-serif;
+    
+}
+
+
+body{
+    width: 100%;
+    height: 7006.63px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #fff;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, .05);
+    color: #fff;
+    display: flex;
+    align-items:center ;
+}
+
+.logo{
+    width: 53px;
+    height: 50px;
+    margin-left: 50.531px;
+    background-image: url("Online\ Shopping\ for\ Women_\ Men_\ Kids\ Fashion\ _\ Lifestyle\ -\ Myntra/1.png");
+    background-position: -462px 0;
+    background-size: 1404px 105px;
+    border: 1px solid transparent;
+    margin-top: 10px;
+}
+nav{
+    width: 515.438px;
+    height: 80px;
+    margin-left: 12.625px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: "Assistant", sans-serif;
+}
+
+.nav-items{
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #282c3f;
+    letter-spacing: .3px;
+
+}
+
+sup{
+    font-size: 10px;
+    font-family: "Assistant", sans-serif;
+    color: rgb(255, 63, 10);
+}
+
+.search-box{
+    width: 320px;
+    height:80px;
+    margin-left: 40px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+}
+.search-icon{
+    height: 39.33px;
+    width: 40px;
+    padding: 11px 0 2px;
+    border-radius: 4px 0 0 4px;
+    text-align: center;
+    background: #f5f5f6; 
+    color: #696e79; 
+}
+.input-box {
+   flex-grow: 1;
+   height: 39.32px;
+}
+.input-box input{
+    height: 39.32px;
+    width: 280px;
+    font-size: 14px;
+    background: #f5f5f6;
+    color: #696e79;
+    border: none;
+}
+
+.input-box input:focus{
+    border: none;
+    outline: none;
+}
+
+.profile{
+    height: 40px;
+    width: 250px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.profile-items{
+    width: 70px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.profile-icon1{
+    height: 24px;
+    width: 24px;
+    background-image: url("Online\ Shopping\ for\ Women_\ Men_\ Kids\ Fashion\ _\ Lifestyle\ -\ Myntra/1.png");
+    background-size: 1404px 105px;
+    background-position: -298px -56px;
+    
+}
+.profile-icon2{
+    height: 22px;
+    width: 17px;
+    background-image: url("Online\ Shopping\ for\ Women_\ Men_\ Kids\ Fashion\ _\ Lifestyle\ -\ Myntra/1.png");
+    background-size: 1404px 105px;
+    background-position: -315px -187px;
+}
+.profile-icon3{
+    height: 22px;
+    width: 22px;
+    background-image: url("Online\ Shopping\ for\ Women_\ Men_\ Kids\ Fashion\ _\ Lifestyle\ -\ Myntra/1.png");
+    background-size: 1404px 105px;
+    background-position: -341px -56px;
+}
+.profile-item-tittle{
+    color: #000;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.offer-container{
+    width: 1263.33px;
+    height:90.85px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border: 1px solid transparent;
+    margin-top: 15px;
+}
+.container-box{
+    width: 1163.33px;
+    height:90.85px;
+    background-color: #282c3f;
+}
+
+.container-people{
+    width: 1263.33px;
+    height: 375px;
+    background-color: red;
+    display: flex;
+}
+.cp-left{
+    height: 375px;
+    width: 631.667px; 
+}
+
+.cp-right{
+    height: 375px;
+    width: 631.667px;
+}
+
+.monsoon-offer{
+    width: 1263.330px;
+    height: 131.594px;   
+}
+
+.monsoon-container{
+    height: 131.573px;
+    width: 1263.330px; 
+    display: flex;
+}
+
+.monsoon-container-left{
+    height: 131.573px;
+    width: 631.667px; 
+}
+
+.monsoon-container-right{
+    height: 131.573px;
+    width: 631.667px;  
+}
+
+.omg-deals{
+    height: 131.510px;
+    width: 1263.330px; 
+}
+
+.fashion-container{
+    width: 1263.330px;
+    height: 475.396px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.fashion-box{
+    width: 315.833px;
+    height: 414.396px; 
+}
+.dot-dot{
+    height: 60px;
+    width: 200px;
+    padding-left: 75px;
+    font-size: 58px;
+    color: lightslategray;
+    margin: auto;
+}
+.shop-by-category{
+    width: 1263.330px;
+    height: 111.854px; 
+}
+
+.items-container{
+    height: 275.021px;
+    width: 1263.330px;
+    display:flex;
+}
+.items{
+    height: 275.021px;
+    width: 210.552px;
+    
+}
+
+.items-container-last{
+    height: 275.021px;
+    width: 1263.330px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.items-last{
+    height: 275.021px;
+    width: 210.552px;
+   
+}
+
+.more-offer-waiting{
+    height: 230.177px;
+    width: 1263.330px;
+    background-color: #282c3f;
+}
+
+footer{
+    width: 1263.330px;
+    height: 3521.670px;
+    
+    padding-top: 30px;
+    padding-bottom: 40px;
+    margin-top: 60px;
+}
+.footer-container{
+    height: 3437.670px;
+    width: 1080px;
+    background-color: #fafbfc;
+    margin: auto;
+}
+.general-info{
+    width: 1080px;
+    height: 515px;
+    background-color: white;
+    display: flex;
+}
+.online-shopping{
+    height: 430px;
+    width: 155px;
+    padding-right: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 12px 0 12px 0px ;
+}
+.online-shopping li{
+    color: rgb(105, 107, 121);
+    font-size: 14px;
+    list-style: none;
+    padding-top: 14px;
+    font-weight: normal;
+}
+.online-shopping ul{
+    padding-top: 20px;
+}
+
+
+.customer-policies{
+    width: 162px;
+    height: 340px;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 12px 0 12px 0px ;
+}
+.customer-policies li{
+    color: rgb(105, 107, 121);
+    font-size: 14px;
+    list-style: none;
+    padding-top: 14px;
+    font-weight: normal;
+}
+.customer-policies ul{
+    padding-top: 20px;
+}
+
+.experience-myntra{
+    width: 360px;
+    height: 162.667px;
+    
+    margin-top: 13px;
+    margin-right: 20px;
+
+}
+.experience-myntra p{
+    color: #282c3f;
+    padding-bottom: 25px;
+    font-size: 12px;
+    font-weight: 700;
+}
+.experience-box{
+    width: 282.365px;
+    height: 48.333px;
+    display: flex;
+    align-items: center;
+}
+.e-img{
+    width: 139.83px;
+    height: 48px;
+    margin-right: 10px;
+}
+.keep-in-touch{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 700;
+    font-size: 12px;
+}
+.social-box{
+    width: 150px;
+    height: 21px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    
+}
+.social-icons{
+    width: 20px;
+    height: 21px;
+   margin-right: 15px;
+    
+}
+
+.promises-box{
+    height: 160.333px;
+    width: 250px;
+}
+.original{
+    width: 250px;
+    height: 42.67px;
+    color: #696b79;
+    margin: 15px 0 30px;
+    display: flex;
+    font-size: 14px;
+    font-weight:normal;
+}
+.return{
+    width: 250px;
+    height: 42.67px;
+    color: #696b79;
+    margin: 15px 0 30px;
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    font-weight:normal;
+}
+.popular-search{
+    width: 1080px;
+    height: 131px;
+   background-color: #fafbfc; 
+}
+.popular-searches{
+    width: 135.333px;
+    height: 15.333px;
+    margin-right: 10px;
+    background:#fafbfc;
+    color: #282c3f;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 15px;
+    font-family: "Assistant", sans-serif;
+}
+.popular-links{
+    margin-top: 10px;
+    color: #696b79;
+    font-size: 15px;
+    line-height: 25px;
+    background: #fafbfc;
+}
+.info-section{
+    width: 1080px;
+    height: 21.333px;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fafbfc;
+}
+.info-section-box{
+    width: 326.667px;
+    height: 21.333px;
+    color:rgb(105, 107, 121);
+}
+
+.registered-office{
+    width: 1080px;
+    height: 180px;
+    padding-top: 20px;
+    border-top: 1px solid #eaeaec;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 30px 0;
+}
+
+.registered-office p{
+    color: #282c3f;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.reg-office-box{
+    width: 1080px;
+    height: 120px;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+.reg-add{
+    width: 756px;
+    height: 120px;
+    color: #94969f;
+    font-size: 14px;
+}
+.legal-info{
+    width: 324px;
+    height: 40px;
+    color: #94969f;
+}
+.legal-info p{
+    color: #94969f;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.gyan-container {
+    width: 1080px;
+    height: 2530px;
+    line-height: 18px;
+    color: #94969f;
+    font-size: 14px;
+    border-top: 1px solid #eaeaec;
+    margin: 15px 0 0;
+}
+
+.gyan-container h1, h2, h3{
+    margin-top: 30px;
+    margin-bottom: -10px;
+    font-size: 14px;
+}
+.gyan-container strong{
+    color: #535766;
+    font-weight: 700;
+}
+.gyan-container p{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.gyan-container ul{
+    list-style: none;
+    padding-left: 40px;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+.gyan-container ul li{
+    list-style-type: decimal;
+}
+
+/* home page ends */
+
+
+/* beauty page starts */
+
+.row-base1{
+   width: 1263.330px;
+   height: 41.333px;
+   margin-top: 15px;
+}
+
+.personal-care{
+    padding-top: 20px;
+    width: 164.444px;
+    height: 21.333px;
+    font-size: 14px;
+    line-height: 1px;
+    margin: 0 0 0 25px;
+}
+
+.row-base2{
+    width: 1263.330px;
+    height: 36.333px;
+ }
+
+ .personal-c{
+    margin: 10px 0 5px 25px;
+    color:#878b94; 
+ }
+ .personal-c strong{
+    color: #282c3f; 
+ }
+
+.row-base3{
+    width: 100%;
+    height: 59px;
+    display: flex;
+}
+.rb3-left{
+    width: 252px;
+    height: 59px;
+    padding-left: 25px;
+    padding-top: 15px;
+    border-bottom: 1px solid #d4d5d9;
+    font-weight: 700;
+}
+.rb3-right{
+    flex-grow: 1;
+    height: 59px;
+    border-bottom: 1px solid #d4d5d9;
+    display: flex;
+    
+}
+.selector-left{
+    width: 710.333px;
+    height: 59px;
+    display: flex;
+}
+.slr1{
+    height: 59px;
+    width: 100px;
+    padding-top: 15px;
+    display: flex;
+    font-size: 14px;
+}
+.slr1-arrow{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 3px;
+    background-image: url("Online\ Shopping\ for\ Women_\ Men_\ Kids\ Fashion\ _\ Lifestyle\ -\ Myntra/1.png");
+    background-size: 1404px 105px;
+    background-position: -2679px -89px
+}
+
+.slr{
+    height: 59px;
+    width: 150px;
+    margin-right: 20px;
+    padding-top: 15px;
+    display: flex;
+    font-size: 14px;
+}
+.slr-arrow{
+    width: 15px;
+    height: 15px;
+    margin-left: 5px;
+    margin-top: 3px;
+    background-image: url("Online\ Shopping\ for\ Women_\ Men_\ Kids\ Fashion\ _\ Lifestyle\ -\ Myntra/1.png");
+    background-size: 1404px 105px;
+    background-position: -2679px -89px
+}
+
+.selector-right{
+    flex-grow: 1;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    border: 1px solid #d4d5d9;
+    margin-top: 10px;
+   
+}
+.sort-by{
+    height: 37px;
+    width: 255px;
+    font-size: 14px;
+    color: #282c3f;
+    border-radius: 2px;
+    background-color: #fff;
+    padding-top: 10px;
+    display: flex;
+}
+
+.sort-by span{
+    font-weight: 700;
+    color: #282c3f;
+    font-size: 14px;
+}
+.sort-by-arrow{
+    width: 15px;
+    height: 10px;
+    margin-left: 30px;
+    margin-top: 5px;
+    background-image: url("Online\ Shopping\ for\ Women_\ Men_\ Kids\ Fashion\ _\ Lifestyle\ -\ Myntra/1.png");
+    background-position: -367px -1px;
+    background-size: 1404px 105px;
+}
+
+.beauty-container{
+    width: 100%;
+    height: 5293.63px;
+    background-color: rebeccapurple;
+    display: flex;
+}
+.beauty-container-left{
+    width: 252px;
+    height: 1440px;
+   
+}
+.bcl1{
+    width: 252px;
+    height: 134.67px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    border-bottom: 1px solid #e9e9ed;
+    border-right: 1px solid #edebef;
+    background-color: white;
+}
+.bcl1 ul{
+    font-size:14px;
+    color: #282c3f;
+    font-weight: 700;
+}
+.bcl1 ul li{
+    margin-bottom: 7px;
+}
+
+.bcl1 ul li input{
+    margin: 0 8px 0 0;
+    
+}
+
+.bcl2{
+    width: 252px;
+    height: 294px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    border-bottom: 1px solid #e9e9ed;
+    border-right: 1px solid #edebef;
+    background-color: white;
+}
+
+.bcl2 ul{
+    list-style-type:none;
+}
+.bcl2 ul li{
+    font-size: 14px;
+    margin-bottom: 7px;
+    
+}
+.bcl2 ul li input{
+    margin: 0 8px 0 0;
+   
+}
+.bcl2 ul li span{
+    color: #94969f;
+    font-size: 11px;
+    margin-left: 4px;
+}
+.categories{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical-filters-header{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: #282c3f;
+    display: block;
+}
+.vertical-search-icon{
+    width: 30px;
+    height: 30px;
+    background-color: #f5f5f6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.vertical-search-icon-img{
+    height: 21px;
+    width: 21px;
+    background-image: url("Online\ Shopping\ for\ Women_\ Men_\ Kids\ Fashion\ _\ Lifestyle\ -\ Myntra/1.png" );
+    background-size: 1404px 105px;
+    background-position: -754px 0;
+}
+
+.more-items{
+    width: 199.33px;
+    height: 19.33px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ff3f6c;
+    margin-left: 27px;
+}
+
+.bcl3{
+    width: 252px;
+    height: 294px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    border-bottom: 1px solid #e9e9ed;
+    border-right: 1px solid #edebef;
+    background-color: white;
+}
+
+.bcl3-brand{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical-filters-header{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: #282c3f;
+    display: block;
+}
+.vertical-search-icon{
+    width: 30px;
+    height: 30px;
+    background-color: #f5f5f6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.vertical-search-icon-img{
+    height: 21px;
+    width: 21px;
+    background-image: url("Online\ Shopping\ for\ Women_\ Men_\ Kids\ Fashion\ _\ Lifestyle\ -\ Myntra/1.png" );
+    background-size: 1404px 105px;
+    background-position: -754px 0;
+}
+
+.more-items{
+    width: 199.33px;
+    height: 19.33px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ff3f6c;
+    margin-left: 27px;
+}
+.bcl3 ul{
+    list-style-type:none;
+}
+.bcl3 ul li{
+    font-size: 14px;
+    margin-bottom: 7px;
+    
+}
+.bcl3 ul li input{
+    margin: 0 8px 0 0;
+}
+.bcl3 ul li span{
+    color: #94969f;
+    font-size: 11px;
+    margin-left: 4px;
+}
+
+.bcl4{
+    width: 252px;
+    height: 164.67px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    border-bottom: 1px solid #e9e9ed;
+    border-right: 1px solid #edebef;
+    background-color: white;
+}
+
+.bcl4-price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical-filters-header{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: #282c3f;
+    display: block;
+}
+
+.more-items{
+    width: 199.33px;
+    height: 19.33px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ff3f6c;
+    margin-left: 27px;
+}
+.bcl4 ul{
+    list-style-type:none;
+}
+.bcl4 ul li{
+    font-size: 14px;
+    margin-bottom: 7px;
+    
+}
+.bcl4 ul li input{
+    margin: 0 8px 0 0;
+   
+}
+.bcl4 ul li span{
+    color: #94969f;
+    font-size: 11px;
+    margin-left: 4px;
+}
+
+.bcl5{
+    width: 252px;
+    height: 294px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    border-bottom: 1px solid #e9e9ed;
+    border-right: 1px solid #edebef;
+    background-color: white;
+}
+
+.bcl5-color{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical-filters-header{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: #282c3f;
+    display: block;
+}
+.vertical-search-icon{
+    width: 30px;
+    height: 30px;
+    background-color: #f5f5f6;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.vertical-search-icon-img{
+    height: 21px;
+    width: 21px;
+    background-image: url("Online\ Shopping\ for\ Women_\ Men_\ Kids\ Fashion\ _\ Lifestyle\ -\ Myntra/1.png" );
+    background-size: 1404px 105px;
+    background-position: -754px 0;
+}
+
+.more-items{
+    width: 199.33px;
+    height: 19.33px;
+    margin-top: 10px;
+    font-size: 15px;
+    color: #ff3f6c;
+    margin-left: 27px;
+}
+.bcl5 ul{
+    list-style-type:none;
+}
+.bcl5 ul li{
+    font-size: 14px;
+    margin-bottom: 7px;
+    
+}
+.bcl5 ul li input{
+    margin: 0 8px 0 0;
+}
+.bcl5 ul li span{
+    color: #94969f;
+    font-size: 11px;
+    margin-left: 4px;
+}
+.check-radio{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #d6d6d6;
+    display: inline-block;
+    margin-right: 8px;
+    margin-left: 27px;
+}
+
+.bcl6{
+    width: 252px;
+    height: 294px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-left: 25px;
+    border-bottom: 1px solid #e9e9ed;
+    border-right: 1px solid #edebef;
+    background-color: white;
+   
+    
+}
+
+.bcl6-discount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.vertical-filters-header{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: #282c3f;
+    display: block;
+}
+
+.bcl6 ul{
+    list-style-type:none;
+}
+.bcl6 ul li{
+    font-size: 14px;
+    margin-bottom: 7px;
+    
+}
+.bcl6 ul li input{
+    margin: 0 8px 0 0;
+}
+.bcl6 ul li span{
+    color: #94969f;
+    font-size: 11px;
+    margin-left: 4px;
+}
+   
+
+/* beauty left container ends */
+
+
+.beauty-container-right{
+    background-color: aqua;
+    height: 5293.670px;
+    width: 1011.333px;
+    padding-top: 24px;
+    padding-left: 15px;
+    padding-right: 20px;
+    
+}
+
+.bcr1{
+    width: 976.33px;
+    height: 359px;
+    margin-left: 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.bcr2{
+    width: 976.33px;
+    height: 359px;
+    margin-left: 3px;
+    display: flex;
+    gap: 45px;
+}
+.bcr1-box{
+    height: 359px;
+    width: 210px;
+    background: #fff;
+}
+.bcr1-box-text{
+    width: 210px;
+    height: 75px;
+    background: #fff;
+    padding: 0 10px;
+    
+}
+.product-prize{
+    width: 190px;
+    height: 15px;
+    font-size: 14px;
+    line-height: 15px;
+    color: #282c3f;
+    white-space: nowrap;
+    margin: 10px 0 6px;
+    font-weight: 700;
+}
+.product-brand{
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    color: #282c3f;
+    margin-top: 0;
+}
+.product-product{
+    font-size: 14px;
+    font-weight: 400;
+    color: #535766;
+    line-height: 1;
+}
+.rate-cross{
+    text-decoration: line-through;
+    color: #7e818c;
+    font-weight: 400;
+    margin-left: 5px;
+    font-size: 12px;
+}
+
+.product-discountPercentage{
+    color: #ff905a;
+    font-weight: 400;
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+.show-more-container{
+    height: 126.667px;
+    width: 976.333px;
+    background-color: forestgreen;
+    margin-left: 2px;
+    margin-top: 70px;   
+}
+
+/* mens styling */
+
+.cp{
+    height: 375px;
+    width: 100%; 
+}
+.mens-fashion-container{
+    width: 1263.330px;
+    height: 276.260px;
+    display: flex;
+}
+.mens-fashion-box{
+    width: 210.552px;
+    height: 276.427px;
+}
+
+.items-container-mens{
+    height: 275.021px;
+    width: 1263.330px;
+    display: flex;
+    justify-content: center;
+}
+
+.superior-experience{
+    width: 1080px;
+    height: 658px;
+    line-height: 18px;
+    color: #94969f;
+    font-size: 14px;
+    border-top: 1px solid #eaeaec;
+    margin: 15px 0 0;
+}
+
+.superior-experience h1,h2,h3{
+    color:#535766;
+    font-weight: 700;
+    font-size: 14px;
+    margin-top: 30px;
+}
+.superior-experience p{
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+.superior-experience ul{
+    list-style: none;
+    margin-top: 14px;
+    margin-bottom: 14px;
+    padding-left: 40px;
+}
+.superior-experience ul li{
+    list-style-type: decimal;
+    margin: 1em 0;
+}
+
+/* women starts */
+
+.women-container{
+    height: 330.031px;
+    width: 1263.330px;
+    display: flex;
+}
+
+.women-items{
+    height: 330.031px;
+    width: 252.667px;
+}
+.items-container-women{
+    width: 1263.330px;
+    height: 275.021px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/* kids starts */
+
+.kids-container{
+    width: 1263.330px;
+    height: 372.625px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+}
+
+.kids-dot{
+    width: 1263.330px;
+    height: 50.67px;
+    display: flex;
+    justify-content: center;
+}
+.k-dot{
+    height: 50px;
+    width: 100px;
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    color: rgb(126, 129, 140);
+}
+.favorite-brands{
+    width: 1263.330px;
+    height: 105.333px;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.text-banner-title{
+    text-transform: uppercase;
+    color: #3e4152;
+    letter-spacing: .15em;
+    font-size: 1.8em;
+    margin: 50px 0 10px 30px;
+    max-height: 5em;
+    font-weight: 700;
+}
+.brand-logo{
+    width: 1233.330px;
+    height: 142.906px;
+    display: flex;
+}
+.brand-box{
+    width: 137.04px;
+    height: 142.906px;
+}
+
+.top-picks{
+    width: 1263.330px;
+    height: 105.333px;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.top-picks-container{
+    width: 1248.330px;
+    height: 81.052px;
+    display: flex;
+}
+.top-picks-container-box{
+    width: 113.490px;
+    height: 81.052px;
+}
+
+.iconic-brands{
+    width: 1263.330px;
+    height: 105.333px;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+
+.iconic-container{
+    width: 1248.330px;
+    height: 294.479px;
+    display: flex;
+}
+.iconic-container-box{
+    width: 249.667px;
+    height: 294.479px;
+}
+.fashion-essentials{
+    width: 1263.330px;
+    height: 105.333px;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.fashion-essential-container1{
+    width: 1233.330px;
+    height: 327.198px;
+    display: flex;
+}
+.fashion-essential-container2{
+    width: 1233.330px;
+    height: 327.198px;
+    display: flex;
+}
+.fec-box{
+    width: 246.667px;
+    height: 327.198px;
+}
+.explore-more{
+    width: 1263.330px;
+    height: 105.333px;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.explore-container{
+    width: 1233.330px;
+    height: 729.885px;
+    display: flex;
+}
+.ec-box{
+    width: 616.667px;
+    height: 729.885px; 
+}
+.kids-space{
+    width: 1263.330px;
+    height: 105.333px;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.kids-space-container{
+    width: 1233.330px;
+    height: 415.260px;
+    display: flex;
+}
+.ks-box{
+    width: 616.667px;
+    height: 415.260px;
+}
+.budget-buy{
+    width: 1263.330px;
+    height: 105.333px;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+
+.budget-buy-container{
+    width: 1233.330px;
+    height: 209.704px;
+    display: flex;
+}
+.bbc-box{
+    width: 205.552px;
+    height: 209.704px;
+}
+.shop-more-brands{
+    width: 1263.330px;
+    height: 105.333px;
+    padding-left: 60px;
+    padding-right: 30px;
+}
+.shop-more-brands-container{
+    height: 288.146px;
+    width: 1233.330px;
+    display: flex;
+}
+
+
+/* home& living starts */
+
+.home-decore{
+    width: 1263.330px;
+    height: 330.125px;
+    padding-top: 30px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.home-section{
+    width: 1263.330px;
+    height: 1372px;
+    display: flex;
+}
+
+.home-section-left{
+    width: 902.39px;
+    height: 1325.68px;
+    padding-left: 60px;
+}
+
+.home-section-right{
+    width: 340.95px;
+    height: 1372px;
+}
+.home-section-left-container{
+    width: 842.39px;
+    height: 392.78px;
+    display: flex;
+}
+.home-section-left-container-box{
+    width: 421.2px;
+    height: 392.78px;
+    padding-right: 8px;
+}
+
+.hsr-box{
+    width: 340.95px;
+    height: 51.33px;
+    padding: 1px 0px 1px 20px;
+}
+.hsr-box2{
+    width: 340.95px;
+    height: 25.33px;
+    padding-left:20px ;
+}
+
+.navi-link{
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    color: #3e4152;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.set-inspired{
+    width: 1263.330px;
+    height: 170.29px;
+}
+
+.set-container{
+    height: 465.24px;
+    width: 1263.33px;
+    padding-left: 60px;
+    padding-right: 60px;
+    background-color: rgb(239, 237, 237);
+    display: flex;
+}
+
+.set-container-box{
+    width: 381.12px;
+    height: 465.24px;
+}
+
+.feautered-brands{
+    width: 1263.330px;
+    height: 153.542px;
+    padding-left: 60px;
+   
+}
+.feauture-container{
+    height: 212.64px;
+    width: 1263.330px;
+    display: flex;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.feauture-container-box{
+    height:212.64px ;
+    width: 228.67px;
+}
